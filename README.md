@@ -8,7 +8,7 @@ Nüshu is a unique, syllabic script historically used by women in Jiangyong Coun
 
 ### 1. Clone the repository: 
 ```bash
-git clone git clone https://github.com/alicellx6256/Nvshu-sentiment-analysis.git
+git clone https://github.com/alicellx6256/Nvshu-sentiment-analysis.git
 cd Nvshu-sentiment-analysis
 ```
 Since this file was originally a jupyter notebook, all dependencies are automatically installed in the notebook using !pip install. 
