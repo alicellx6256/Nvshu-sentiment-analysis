@@ -4,6 +4,20 @@ This is my final project for CS72 (Computational Linguistics). I collaborated wi
 ## About the project: 
 Nüshu is a unique, syllabic script historically used by women in Jiangyong County, China. As an endangered, low- resource writing system with limited digital resources, it presents a valuable case for evaluating sentiment classification in niche linguistic contexts. **This project tests four classification methods (fine-tuned BERT, Convolutional Neural Networks (CNN), Naïve Bayes, and Random Forest) on a manually labeled dataset of 500 Nüshu- Chinese sentence pairs. The goal was to assess which models best identify positive, neutral, and negative sentiment in a phonetic and culturally symbolic script.** CNN achieved the highest F1-score, while BERT performed the worst, likely due to domain mismatch and insufficient data. Overall accuracy remained below 65% across models. We identify contributing factors such as small dataset size, class imbalance, short sentence length, and semantic ambiguity. These results suggest that simpler models with localized feature extraction (e.g., CNN) are better suited to low-resource, structurally distinct scripts like Nüshu. Altogether, this study proposes CNN as a baseline and calls for hybrid models combining domain-specific embeddings and character-level features. More broadly, it highlights the role of NLP in preserving endangered scripts such as Nüshu.
 
+## How to run:
+
+### 1. Clone the repository: 
+```bash
+git clone git clone https://github.com/alicellx6256/Nvshu-sentiment-analysis.git
+cd Nvshu-sentiment-analysis
+```
+Since this file was originally a jupyter notebook, all dependencies are automatically installed in the notebook using !pip install. 
+
+### 2. Launch the notebook
+```bash
+jupyter notebook
+```
+
 ## My contribution: 
 (My teammate and I experimented with four methods in total, so two each. To see my contribution, you only need to run Step 4 Method 1 and Method 3 in the jupyter notebook) 
 
